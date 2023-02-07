@@ -1,0 +1,51 @@
+1st ans)
+The ls commans is used to list the files in a specified directory.
+The general syntax is:
+ls<options><directory>
+For example,if you want to list all the files in the example directory,then the command will be as follows:
+ls example/
+There are different options that can be used with the ls command.These options give additional information about the file/folder
+-l   lists long format
+-a   lists all files including hidden files
+-i   lists files with their inode number
+-s   lists files with their size and sorts the list
+-t   sorts the listed files by time and date
+2nd ans)
+ls -F
+ls -m
+ls -Q
+ls -i
+Type ls -F in a terminal window to add “/” at the end of each directory. This command will help you to distinguish directories from files. 
+When you type the ls -m command, the terminal prints out directories and files separated by a comma:
+Run the ls -Q command to add quotation marks to all directories and files
+Use the ls -t command to sort directories and files by time and date of creation or modification:
+3rd ans)
+A Linux distribution -- often shortened to "Linux distro" -- is a version of the open source Linux operating system that is packaged with other components, such as an installation programs, management tools and additional software such as the KVM hypervisor.
+Linux distributions, which are based on the Linux kernel, are often easier for users to deploy than the traditional open source version of Linux. This is because most distributions eliminate the need for users to manually compile a complete Linux operating system from source code, and because they are often supported by a specific vendor.
+Generally, Linux distributions consist of what are called software packages. These packages contain specific files, applications or services. For example, a package could be a collection of fonts, web browsers or development environments. A single Linux distribution could contain thousands of software packages. In practical terms, however, Linux distros tend to minimize the number of components and modules to tailor the distro and shrink the operating system's total footprint -- especially if the distro will be deployed in a virtualized environment where many concurrent instances put compute resources at a premium.
+4th ans)
+Generally, Linux distributions consist of what are called software packages. These packages contain specific files, applications or services. For example, a package could be a collection of fonts, web browsers or development environments. A single Linux distribution could contain thousands of software packages. In practical terms, however, Linux distros tend to minimize the number of components and modules to tailor the distro and shrink the operating system's total footprint -- especially if the distro will be deployed in a virtualized environment where many concurrent instance.
+5th ans)
+The ducommand stands for disk usage. This command is included by default in most Linux distributions.
+You can display the size of your current directory by typing du in the command line.
+6th ans)
+Any time the system is running, processes are also running. You can use the ps command to find out which processes are running and display information about those processes.
+The ps command has several flags that enable you to specify which processes to list and what information to display about each process.
+7th ans)
+Open the command line
+Type the following command:
+grep MemTotal /proc/meminfo
+8th ans)
+There are three ways to enable the root login in Ubuntu: -
+Temporary
+For CLI prompt only
+For both CLI prompt and GUI interface.
+9th ans)
+sudo (Super User DO) command in Linux is generally used as a prefix of some command that only superuser are allowed to run. If you prefix “sudo” with any command, it will run that command with elevated privileges or in other words allow a user with proper permissions to execute a command as another user, such as the superuser. This is the equivalent of “run as administrator” option in Windows. The option of sudo lets us have multiple administrators. 
+sudo -V | -h | -l | -v | -k | -K | -s | [ -H ] [-P ] [-S ] [ -b ] | 
+[ -p prompt ] [ -c class|- ] [ -a auth_type ] [-r role ] [-t type ] 
+[ -u username|#uid ] commandsudo -V | -h | -l | -L | -v | -k | -K | -s | [ -H ] [-P ] [-S ] [ -b ] | 
+[ -p prompt ] [ -c class|- ] [ -a auth_type ] [-r role ] [-t type ] 
+[ -u username|#uid ] command 
+10th ans)
+You can delete libraries by issuing the DELETE LIBRARY command.
